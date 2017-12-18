@@ -9,9 +9,10 @@
     $second = 5;
     $first = 0;
     while($first <= 20){
-      $first++;
       $result = ($first * $second);
-      echo $result.'<br />';
+      echo $result;
+      ?> <br /> <?php
+      $first++;
     }
      ?>
 
